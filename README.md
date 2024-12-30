@@ -70,6 +70,8 @@ Copy code
 Contributing 🤝
 Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements.
 
+Try Demo: https://colab.research.google.com/drive/1Ej8Gd9SiL4Ka-2HUdngiS-UO55oq-Er4?usp=sharing
+
 
 Here is demonstration:
 
