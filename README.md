@@ -70,3 +70,12 @@ Copy code
 Contributing 🤝
 Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements.
 
+
+Here is demonstration:
+
+https://github.com/user-attachments/assets/3b4927fe-3943-485b-9c0f-7fb90331c1de
+
+
+
+
+
