@@ -1,0 +1,9 @@
+flask
+pandas
+seaborn
+matplotlib
+scikit-learn
+lazypredict
+fpdf
+openai
+autoviz
