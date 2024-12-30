@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis App</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ML Analysis Dashboard</h1>
+        <form action="/analyze" method="post">
+            <button type="submit">Run Analysis</button>
+        </form>
+
+        {% if best_model %}
+        <h2>Best Model: {{ best_model }}</h2>
+        <h3>Generated Plots:</h3>
+        <div>
+            {% for plot in plots %}
+            <img src="/static/feature_visualizations/{{ plot }}" alt="{{ plot }}" style="width: 30%; margin: 10px;">
+            {% endfor %}
+        </div>
+        <a href="{{ pdf_report }}">Download PDF Report</a>
+        {% endif %}
+    </div>
+</body>
+</html>
