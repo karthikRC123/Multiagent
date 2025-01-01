@@ -245,20 +245,6 @@ else:
 
 # Notify user
 print("\nPipeline complete. The best model has been selected and evaluated.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Generate PDF report
 class PDF(FPDF):
     def header(self):
